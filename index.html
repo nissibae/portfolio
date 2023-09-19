@@ -3,48 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../style/style.css" />
   </head>
 
   <body>
     <header>
       <h1>
         <a href="#">
-          <img src="./images/weniv-logo.png" alt="위니브" />
+          <img class="logo" src="./images/weniv-logo.png" alt="위니브" />
         </a>
       </h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Activity</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#activity">Activity</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h2>안녕하세요. <strong>베히스입니다</strong></h2>
+      <section id="home">
+        <h2>안녕하세요. <br /><strong>베히스입니다</strong><br /></h2>
         <img
+          class="licat"
           src="./images/Lycat.png"
           alt="인사하는 사자탈을 쓴 고양이 라이캣"
         />
-        <a href="#"><img src="#" alt="하단으로 이동" /></a>
+        <a class="down" href="#about"
+          ><img src="./images/down.svg" alt="하단으로 이동"
+        /></a>
       </section>
 
-      <section>
-        <h2>About</h2>
+      <section id="about">
+        <h2 class="title">About</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad enim modi,
-          amet ea quam omnis at ratione reiciendis sequi quis iusto ipsa! Animi
-          quo unde ipsam reiciendis quod laudantium expedita. Laboriosam, ab qui
-          quam eveniet mollitia ducimus molestiae harum error, illo beatae quis
-          soluta modi repudiandae nostrum vel odit eaque doloribus voluptates
-          nobis unde! Corrupti magnam rem veniam laudantium expedita. Ratione
-          impedit nesciunt velit, nisi voluptatum doloremque distinctio quaerat
-          sapiente sequi voluptas, unde cum error nam sunt qui est animi magnam
-          deserunt minus ab. Eum animi quia numquam reprehenderit officiis.
+          열정적이고 창의적인 디자이너 베히스입니다 <br />
+          문제점을 찾아 솔루션을 제공할 수 있기를 힘쓰며, <br />
+          열심히 노저어 달나라로 가보겠읍니다!
         </p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
       </section>
@@ -57,7 +55,7 @@
             <p>프로젝트에 대한 간략한 설명</p>
           </li>
           <li>
-            <strong>프로젝트명1</strong>
+            <strong>프로젝트명2</strong>
             <p>프로젝트에 대한 간략한 설명</p>
           </li>
         </ul>
@@ -75,12 +73,14 @@
           Exercitationem, quis.
         </p>
         <div>
-          <img src="" alt="메일전송하기" /><a href="mailto:behis08111@gmail.com"
+          <img src="./images/mail.svg" alt="메일전송하기" /><a
+            href="mailto:behis08111@gmail.com"
             >behis08111@gmail.com</a
           >
         </div>
         <div>
-          <img src="" alt="전화하기" /><a href="tel:01041180573"
+          <img src="./images/mobile.svg" alt="전화하기" /><a
+            href="tel:01041180573"
             >010-4118-0573</a
           >
         </div>
